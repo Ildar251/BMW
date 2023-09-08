@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../fonts/NoirPro-Bold.eot');
+    src: local('☞Noir Pro Bold'), local('NoirPro-Bold'),
+        url('../fonts/NoirPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoirPro-Bold.woff2') format('woff2'),
+        url('../fonts/NoirPro-Bold.woff') format('woff'),
+        url('../fonts/NoirPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../fonts/NoirPro-BoldItalic.eot');
+    src: local('☞Noir Pro Bold Italic'), local('NoirPro-BoldItalic'),
+        url('../fonts/NoirPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoirPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/NoirPro-BoldItalic.woff') format('woff'),
+        url('../fonts/NoirPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../fonts/NoirPro-Regular.eot');
+    src: local('☞Noir Pro'), local('NoirPro-Regular'),
+        url('../fonts/NoirPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoirPro-Regular.woff2') format('woff2'),
+        url('../fonts/NoirPro-Regular.woff') format('woff'),
+        url('../fonts/NoirPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../fonts/NoirPro-Light.eot');
+    src: local('☞Noir Pro Light'), local('NoirPro-Light'),
+        url('../fonts/NoirPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoirPro-Light.woff2') format('woff2'),
+        url('../fonts/NoirPro-Light.woff') format('woff'),
+        url('../fonts/NoirPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../fonts/NoirPro-HeavyItalic.eot');
+    src: local('☞Noir Pro Heavy Italic'), local('NoirPro-HeavyItalic'),
+        url('../fonts/NoirPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoirPro-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/NoirPro-HeavyItalic.woff') format('woff'),
+        url('../fonts/NoirPro-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
