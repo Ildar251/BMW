@@ -124,21 +124,21 @@
         Share = {
             vkontakte: function (purl, ptitle) {
                 ptitle = document.title
-                purl = document.location.href
+                purl = document.URL
                 url = 'http://vkontakte.ru/share.php?'
                 url += 'url=' + encodeURIComponent(purl)
                 url += '&title=' + encodeURIComponent(ptitle)
                 Share.popup(url)
             },
             odnoklassniki: function (purl, text) {
-                purl = document.location.href
+                purl = document.URL
                 url = 'https://connect.ok.ru/offer?'
                 url += 'url=' + encodeURIComponent(purl)
                 Share.popup(url)
             },
             facebook: function (purl, ptitle) {
                 ptitle = document.title
-                purl = document.location.href
+                purl = document.URL
                 url = 'http://www.facebook.com/sharer.php?s=100'
                 url += '&p[title]=' + encodeURIComponent(ptitle)
                 url += '&p[url]=' + encodeURIComponent(purl)
